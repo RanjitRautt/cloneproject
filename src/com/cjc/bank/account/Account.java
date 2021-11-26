@@ -17,6 +17,8 @@ public class Account
 		this.acno = acno;
 	}
 	public String getName() {
+		System.out.println("clone project");
+		System.out.println("bank project updated");
 		return name;
 	}
 	public void setName(String name) {
